@@ -20,7 +20,7 @@
     left: 15px;
 }
 .logo img{
-    width: 130px;
+    width: 200px;
 }
 ul{
     list-style: none;
@@ -35,7 +35,7 @@ ul li{
 }
 .text{
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 8%;
     color: wheat;
 }
@@ -50,6 +50,13 @@ ele{
 }
 h5{
     font-size: 20px;
+}
+.text2{
+    position: relative;
+    top: 15%;
+}
+.text2 img{
+    width: 200px;
 }
 .btn{
     display: block;
@@ -74,6 +81,9 @@ a{
     float: left;
     width: 33.33%;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 h3{
     text-align: center;
